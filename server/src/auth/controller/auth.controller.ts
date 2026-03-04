@@ -25,7 +25,7 @@ export class AuthController {
     @Get('activate')
     async activate(@Query('token') token: string, @Res() res) {
         await this.authService.activateUser(token)
-        return res.redirect('https://localhost:3000/activation-success')
+        return res.redirect('https://localhost:5173/activation')
     }
 
     @Post('login')

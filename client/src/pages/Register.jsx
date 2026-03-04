@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { useModal } from 'src/contexts/ModalContext'
 import { useNotification } from 'src/contexts/NotificationContext'
 import Input from 'src/components/Input'
@@ -76,7 +77,7 @@ export default function Register() {
 
             <div className="navigation">
                 <p>Vous avez déjà un compte ?</p>
-                <button type="button">Se connecter</button>
+                <Link to="/login" className='login-link'>Se connecter</Link>
             </div>
         
         </>

@@ -27,7 +27,7 @@ export const routes = [
   {
     element: <MainLayout variant="none" />,
     children: [
-      { path: '/activation-success', element: <Activation /> },
+      { path: '/activation', element: <Activation /> },
       { path: '*', element: <NotFound /> }
     ]
   }
