@@ -1,7 +1,7 @@
 {
   "name": "cvmanager-server",
   "slug": "La solution intelligente pour vos candidatures",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "CV Manager - Server Application est le coeur d'orchestration (Backend) de la plateforme de gestion de CV. Conçu avec le framework NestJS, il repose sur une architecture modulaire, scalable et typée, garantissant une haute fiabilité des données et des processus métier.",
   "private": true,
   "scripts": {

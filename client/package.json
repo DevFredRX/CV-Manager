@@ -3,7 +3,7 @@
   "slug": "La solution intelligente pour vos candidatures",
   "description": "CV Manager - Client Application n'est pas qu'une simple interface ; c'est un projet bâti sur le principe de Souveraineté Numérique. L'architecture est pensée pour être la moins invasive possible tout en offrant une expérience fluide et performante.",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",

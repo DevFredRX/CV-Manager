@@ -1,23 +1,23 @@
 {
   "name": "cv-manager",
   "slug": "La solution intelligente pour vos candidatures",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "CV Manager est une application moderne conçue pour centraliser et optimiser la gestion des candidatures. Le projet adopte une architecture robuste permettant une séparation claire entre la logique métier et l'interface utilisateur.",
   "keywords": [
     "React.JS",
     "NestJS",
     "MySQL"
   ],
-  "homepage": "https://github.com/DFS-FredRX/CV-Manager#readme",
+  "homepage": "https://github.com/DevFredRX/CV-Manager#readme",
   "bugs": {
-    "url": "https://github.com/DFS-FredRX/CV-Manager/issues"
+    "url": "https://github.com/DevFredRX/CV-Manager/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/DFS-FredRX/CV-Manager.git"
+    "url": "git+ssh://git@github.com/DevFredRX/CV-Manager.git"
   },
   "license": "MIT",
-  "author": "DFS-FredRX",
+  "author": "FredRX",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {

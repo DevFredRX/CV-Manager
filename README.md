@@ -15,46 +15,50 @@ La solution intelligente pour vos candidatures
 </div>
 
 ## Présentation du projet
-**CV Manager** est une application moderne conçue pour centraliser et optimiser la gestion des candidatures. Le projet adopte une architecture robuste permettant une séparation claire entre la logique métier et l'interface utilisateur.
 
-## Stack technique <img align="right" src="https://img.shields.io/badge/Concurrently-FF69B4?style=for-the-badge&logo=npm&logoColor=white" />
-L'écosystème repose sur des technologies de points garantissant scalabilité et maintenabilité :
+**CV Manager** est une application moderne conçue pour centraliser et optimiser la gestion des candidatures. Le projet adopte une architecture robuste permettant une séparation claire entre la logique métier (NestJS) et l'interface utilisateur (React).
 
-* **Frontend :** React.js - Pour une interface utilisateur réactive et composable.
-* **Backend :** NestJS - Un frameword Node.js progressif pour construire des applications côté serveur efficaces et fiables.
-* **Base de données :** MySQL - Système de gestion de base de données relationnelle pour une intégrité des données maximale.
-* **Orchestration :** Concurrently - Utilisé pour piloter le développement fullstack en simultané.
+> **NOTE**  
+> *Ce projet est actuellement en version `0.0.1` et utilise le système de modules `commonjs`.*
+
+## Stack technique & Orchestration <img align="right" src="https://img.shields.io/badge/Concurrently-FF69B4?style=for-the-badge&logo=npm&logoColor=white" />
+
+L'écosystème repose sur des technologies de pointe garantissant scalabilité et maintenabilité :
+
+* **Frontend :** React.js - Interface utilisateur réactive et composable.
+* **Backend :** NestJS - Frameword Node.js progressif pour des API fiables.
+* **Base de données :** MySQL - Gestion relationnelle pour une intégrité maximale.
+* **Validation :** Utilisation de `class-validator` (^0.15.1) et `class-transformer` (^0.5.1) pour la sécurité des données.
+* **Orchestration :** `concurrently` (^9.2.1) - Utilisé pour piloter le développement Fullstack en une seule commande.
 
 ## Installation et Démarrage <img align="right" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" /> <img align="right" src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white" />
+
 ### Prérequis
 
 * **Node.js** (Version LTS recommandée)
 * **NPM**
 * Une instance **MySQL** active
 
-### Clonage du projet
-```Bash
-git clone git+ssh://git@github.com/DFS-FredRX/CV-Manager.git
-cd CV-Manager
-```
+### Clonage et Installation
 
-### Installation des dépendances
-Installez les dépendances à la racine pour bénéficier des outils de développement :
 ```Bash
+git clone git+ssh://git@github.com/DevFredRX/CV-Manager.git
+cd CV-Manager
 npm install
 ```
-*(Note : N'oubliez pas d'installer les dépendances spécifiques dans /client et /server si nécessaire.)*
 
-### Lancement du mode développement
-Le projet est configuré pour lancer simultanément le frontend et le backend avec une seule commande :
-```Bash
-npm run dev
-```
+> **NOTE**  
+> *L'installation à la racine permet de configurer les outils d'orchestration.*
+
+### Commandes de développement
+
+Le projet utilise des scripts automatisés pour simplifier votre flux de travail :
+
 |Commande|Action|
 |--|--|
-|npm run dev:client|Lance uniquement le client React|
+|npm run dev|Lancement combiné (Serveur NestJS + Client React)|
 |npm run dev:server|Lance uniquement le serveur NestJS (mode watch)|
-|**npm run dev**|**Lancement combiné (Client + Serveur)**|
+|npm run dev:client|Lance uniquement le client React|
 
 ## Roadmap & Conception
 
@@ -64,11 +68,14 @@ npm run dev
 * Design de l'interface Dashboard sur React.
 
 ## Licence
+
 Distribué sous la licence MIT. Voir [LICENCE](./LICENSE) pour plus d'informations.
 
 ## Contact <img align="right" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
-**DFS-FredRX** - [GitHub Profile](https://github.com/DFS-FredRX)  
-**CV Manager** - [Link Project](https://github.com/DFS-FredRX/CV-Manager)
+
+**FredRX** - [GitHub Profile](https://github.com/DevFredRX)  
+**CV Manager** - [Link Project](https://github.com/DevFredRX/CV-Manager)  
+**Bugs & Issues** - [Link Bugs](https://github.com/DevFredRX/CV-Manager/issues)
 
 ___
 
