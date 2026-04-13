@@ -5,42 +5,42 @@ import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn, UpdateDateCol
 export class User {
 
     @PrimaryGeneratedColumn()
-    id: number
+    id!: number
 
     @Column({ type: 'varchar' })
-    firstname: string
+    firstname!: string
 
     @Column({ type: 'varchar' })
-    lastname: string
+    lastname!: string
 
     @Column({ type: 'varchar', unique: true })
-    username: string
+    username!: string
 
     @Column({ type: 'varchar', unique: true })
-    email: string
+    email!: string
 
     @Column()
     @Exclude()
-    hashedPassword: string
+    hashedPassword!: string
 
     @Column({ default: false })
-    isActive: boolean
+    isActive!: boolean
 
     @Column({ type: 'text', nullable: true })
     @Exclude()
-    activationToken: string | null
+    activationToken!: string | null
 
     @Column({ default: false })
-    isTwoFactorEnabled: Boolean
+    isTwoFactorEnabled!: Boolean
 
     @Column({ type: 'varchar', nullable: true })
     @Exclude()
-    twoFactorSecret: string | null
+    twoFactorSecret!: string | null
 
     @CreateDateColumn()
-    createdAt: Date
+    createdAt!: Date
 
     @UpdateDateColumn()
-    updatedAt: Date
+    updatedAt!: Date
 
 }

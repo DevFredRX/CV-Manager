@@ -5,10 +5,10 @@ import { JwtService } from '@nestjs/jwt';
 
 import * as argon2 from 'argon2'
 
-import { User } from 'src/user/entity/user.entity';
-import { RegisterDTO } from '../dto/register.dto';
-import { LoginDTO } from '../dto/login.dto';
-import { MailService } from 'src/mail/service/mail.service';
+import { User } from '@user/entity/user.entity';
+import { RegisterDTO } from '@auth/dto/register.dto';
+import { LoginDTO } from '@auth/dto/login.dto';
+import { MailService } from '@mail/service/mail.service';
 
 @Injectable()
 export class AuthService {
@@ -47,7 +47,7 @@ export class AuthService {
             await this.userRepository.save(user)
             return { message: "Votre compte a été activé avec succès. Vous pouvez maintenant vous connecter."}
         } catch (error) {
-            if (error.name === 'TokenExpiredError') throw new UnauthorizedException("Le lien d'activation a expiré (limite de 5 minutes).")
+            if (error instanceof Error && error.name === 'TokenExpiredError') throw new UnauthorizedException("Le lien d'activation a expiré (limite de 5 minutes).")
             throw new BadRequestException("Lien d'activation invalide.")
         }
         

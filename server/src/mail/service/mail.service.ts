@@ -1,12 +1,11 @@
 import { Injectable } from '@nestjs/common'
 import { ConfigService } from '@nestjs/config'
 
-import { User } from 'src/user/entity/user.entity'
+import { User } from '@user/entity/user.entity'
 
 import * as nodemailer from 'nodemailer'
 import * as path from 'path'
 import * as fs from 'fs'
-import { Subject } from 'rxjs'
 
 @Injectable()
 export class MailService {

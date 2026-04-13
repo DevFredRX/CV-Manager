@@ -8,16 +8,16 @@
     "NestJS",
     "MySQL"
   ],
-  "homepage": "https://github.com/DFS-FredRX/CV-Manager#readme",
+  "homepage": "https://github.com/DevFredRX/CV-Manager#readme",
   "bugs": {
-    "url": "https://github.com/DFS-FredRX/CV-Manager/issues"
+    "url": "https://github.com/DevFredRX/CV-Manager/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/DFS-FredRX/CV-Manager.git"
+    "url": "git+ssh://git@github.com/DevFredRX/CV-Manager.git"
   },
   "license": "MIT",
-  "author": "DFS-FredRX",
+  "author": "FredRX",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {

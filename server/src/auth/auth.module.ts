@@ -2,10 +2,10 @@ import { Module } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { JwtModule } from '@nestjs/jwt';
 import { PassportModule } from '@nestjs/passport';
-import { AuthService } from './service/auth.service';
-import { AuthController } from './controller/auth.controller';
-import { UserModule } from 'src/user/user.module';
-import { MailModule } from 'src/mail/mail.module';
+import { AuthService } from '@auth/service/auth.service';
+import { AuthController } from '@auth/controller/auth.controller';
+import { UserModule } from '@user/user.module';
+import { MailModule } from '@mail/mail.module';
 
 @Module({
   imports: [
