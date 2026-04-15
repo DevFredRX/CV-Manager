@@ -19,7 +19,7 @@ La solution intelligente pour vos candidatures
 **CV Manager** est une application moderne conçue pour centraliser et optimiser la gestion des candidatures. Le projet adopte une architecture robuste permettant une séparation claire entre la logique métier (NestJS) et l'interface utilisateur (React).
 
 > **NOTE**  
-> *Ce projet est actuellement en version `0.0.0` et utilise le système de modules `commonjs`.*
+> *Ce projet est actuellement en version `0.0.1` et utilise le système de modules `commonjs`.*
 
 ## Stack technique & Orchestration <img align="right" src="https://img.shields.io/badge/Concurrently-FF69B4?style=for-the-badge&logo=npm&logoColor=white" />
 

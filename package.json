@@ -1,7 +1,7 @@
 {
   "name": "cv-manager",
   "slug": "La solution intelligente pour vos candidatures",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "CV Manager est une application moderne conçue pour centraliser et optimiser la gestion des candidatures. Le projet adopte une architecture robuste permettant une séparation claire entre la logique métier et l'interface utilisateur.",
   "keywords": [
     "React.JS",

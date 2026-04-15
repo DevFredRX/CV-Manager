@@ -1,4 +1,11 @@
 main:has(.form-container) {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.5em;
+}
+
+.main-content {
+    grid-column: 1 / 2;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -176,8 +183,11 @@ button[type="button"] .label-button.mobile {
         flex-direction: column;
     }
 
-    #root main {
+    #root main:has(.form-container) {
         padding: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }

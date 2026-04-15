@@ -38,6 +38,7 @@
 
 body {
     user-select: none;
+    position: relative;
 }
 
 .layout {

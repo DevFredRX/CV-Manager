@@ -62,7 +62,7 @@ export default function Register() {
 
     return (
 
-        <>
+        <div className='main-content'>
 
             <form className='form-container register' method="post" onSubmit={handleModal}>
                 {['firstname', 'lastname', 'username', 'email', 'password'].map(field => (
@@ -80,7 +80,7 @@ export default function Register() {
                 <Link to="/login" className='login-link'>Se connecter</Link>
             </div>
         
-        </>
+        </div>
 
     )
 
